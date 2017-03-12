@@ -9,6 +9,8 @@ in GitHub. Pages are written in [markdown](https://github.com/adam-p/markdown-he
 
 If you're a member of the eslcc org, you can edit it directly. If not, submit a pull request.
 
+Edits will take a few seconds to show up in the site itself once they are made on GitHub.
+
 ## Creating new pages
 
 To create a new page, click the link below the table of contents.
