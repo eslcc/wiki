@@ -11,3 +11,5 @@ Erik Konijn is 15 years old, he is Dutch and Danish and he's on the 5th year of 
 Nicolas Perovic is 15 years old, he is Czech and he's on the 5th year of the German section.
 
 José Fonseca is 12 years old, he is Portuguese and he's on the 2nd year of the Portuguese section
+
+Joana Da Silva is 12 years old, she's Portuguese and Brazilian and she's on the 2nd year of the Portuguese section
