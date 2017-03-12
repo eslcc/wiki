@@ -18,7 +18,7 @@ To create a new page, click the link below the table of contents.
 A couple of things you need to keep in mind, otherwise the wiki will break:
 
 1. Make sure the page's extension is `.md`.
-2. Make sure the page starts with the following front matter:
+2. Make sure the page starts with the following front matter: **note: the `---` triple-dashes are required**
 ```
 ---
 title: <insert page title here>
