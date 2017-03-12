@@ -13,7 +13,7 @@ If you're a member of the eslcc org, you can edit it directly. If not, submit a 
 
 To create a new page, click the link below the table of contents.
 
-A couple fo things you need to keep in mind, otherwise the wiki will break:
+A couple of things you need to keep in mind, otherwise the wiki will break:
 
 1. Make sure the page's extension is `.md`.
 2. Make sure the page starts with the following front matter:
