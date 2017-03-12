@@ -8,6 +8,6 @@ Vidminas Mikucionis is 18 years, old he is Lithuanian and he's on the 7th year o
 
 Erik Konijn is 15 years old, he is Dutch and Danish and he's on the 5th year of the Dutch section.
 
-Nicolas Perovic is 15 years old, he is German and he's on the 5th year of the German section.
+Nicolas Perovic is 15 years old, he is Czech and he's on the 5th year of the German section.
 
 José Fonseca is 12 years old, he is Portuguese and he's on the 2nd year of the Portuguese section
