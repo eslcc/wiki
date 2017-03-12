@@ -15,7 +15,7 @@ Edits will take a few seconds to show up in the site itself once they are made o
 
 To create a new page, click the link below the table of contents.
 
-A couple fo things you need to keep in mind, otherwise the wiki will break:
+A couple of things you need to keep in mind, otherwise the wiki will break:
 
 1. Make sure the page's extension is `.md`.
 2. Make sure the page starts with the following front matter:
