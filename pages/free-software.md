@@ -1,5 +1,5 @@
 --
-title : Free Student Software
+title: Free Student Software
 ---
 
 ## free software only for students
