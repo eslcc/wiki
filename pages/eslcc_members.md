@@ -12,7 +12,7 @@ Nicolas Perovic is 15 years old, he is Czech and he's on the 5th year of the Ger
 
 Mathias Obrzut is 15 years old, he is Austrian and he's on the 5th year of the German section.
 
-Diogo Cabral is 13 years old, he is Portuguese and Brazilian on the 3th of the Portuguese section.
+Diogo Cabral is 13 years old, he is Portuguese and Brazilian on the 3rd of the Portuguese section.
 
 José Fonseca is 12 years old, he is Portuguese and he's on the 2nd year of the Portuguese section.
 
