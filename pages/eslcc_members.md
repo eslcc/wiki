@@ -16,4 +16,4 @@ Diogo Cabral is 13 years old, he is Portuguese and Brazilian on the 3th of the P
 
 José Fonseca is 12 years old, he is Portuguese and he's on the 2nd year of the Portuguese section.
 
-Joana Da Silva is 12 years old, she's Portuguese and Brazilian and she's on the 2nd year of the Portuguese section.
+Joana Fernandes is 12 years old, she's Portuguese and Brazilian and she's on the 2nd year of the Portuguese section.
