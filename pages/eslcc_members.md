@@ -1,5 +1,5 @@
 ---
-title : eslcc members
+title: eslcc members
 ---
 
 Vidminas Mikucionis is 18 years old, he is Lithuanian and he's in the 7th year of the English section.
