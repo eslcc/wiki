@@ -1,3 +1,4 @@
+<!--
 <ul class="sidebar">
     {% for page in site.pages %}
         {% if page.title != %}
@@ -5,5 +6,13 @@
         {% endif %}
     {% endfor %}
 </ul>
+-->
+
+
+{% for page in site.pages %}
+    {% if page.title != %}
+      <div class="sidebaritem"><a href="{{ page.url }}">{{page.title}}</a></div>
+    {% endif %}
+{% endfor %}
 
 <a href="https://github.com/eslcc/wiki/new/gh-pages/pages" class="newpage">Create New Page</a>
