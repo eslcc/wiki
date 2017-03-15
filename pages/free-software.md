@@ -29,13 +29,13 @@ title: Free Student Software
 * Image Manipulation Program: Image Retouching & Editing, free-form Drawing
 * Photoshop, but free - [Link](https://www.gimp.org/downloads)
 
-<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/Impress.png" width="250px" align="right"></img>
+<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/Impress.png" width="250px" align="right">
 #### LibreOffice
 
 * Office Suite: Text, Spreadsheets, Presentations, Sketches, Databases, Formulas, Charts
 * Microsoft Office, but free - [Link](https://www.libreoffice.org/download/download)
 
-<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/InkScape.png" width="250px" align="right"></img>
+<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/InkScape.png" width="250px" align="right">
 #### InkScape 
 * free and open source Vector Graphics Editor
 * Adobe Illustrator, but free - [Link](https://inkscape.org/en/download)
