@@ -41,3 +41,13 @@ title: Free Student Software
 
 * audio workstation software: Music Production, Playback Instruments, samples & plugins
 * Garage Band, but free - [Link](https://lmms.io/download)
+
+#### Blender
+
+* 3D content creation program: modeling, rigging, animation, simulation, rendering, compositing and motion tracking
+* [Link](https://www.blender.org/download)
+
+#### Paint.NET
+
+* free image and photo editing software
+* [Link](http://www.getpaint.net/download.html)
