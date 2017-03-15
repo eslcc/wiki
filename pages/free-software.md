@@ -3,6 +3,7 @@ title: Free Student Software
 ---
 
 # free software only for students
+<hr/>
 
 #### GitHub Student Developer Pack
 
@@ -21,21 +22,24 @@ title: Free Student Software
 * industry-standard 3D modelling and animation software - [Link](http://www.autodesk.com/education/free-software/all)
 
 # free software for anyone
+<hr/>
 
 #### GIMP
 
 * Image Manipulation Program: Image Retouching & Editing, free-form Drawing
 * Photoshop, but free - [Link](https://www.gimp.org/downloads)
 
+<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/Impress.png" width="250px" align="right"></img>
 #### LibreOffice
 
 * Office Suite: Text, Spreadsheets, Presentations, Sketches, Databases, Formulas, Charts
 * Microsoft Office, but free - [Link](https://www.libreoffice.org/download/download)
 
+<img src="https://github.com/eslcc/wiki/blob/gh-pages/assets/InkScape.png" width="250px" align="right"></img>
 #### InkScape 
-
 * free and open source Vector Graphics Editor
 * Adobe Illustrator, but free - [Link](https://inkscape.org/en/download)
+
 
 #### LMMS 
 
