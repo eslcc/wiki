@@ -10,6 +10,8 @@ body {
   display: flex;
   min-height: 100vh;
   font-family: sans-serif;
+    background-color: #212121;
+    color: #fafafa;
 }
 
 .sidebar-container {
@@ -21,26 +23,48 @@ body {
     transition: margin-left 0.15s ease-out;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     z-index: 2;
+    height: 100%;
+    position: fixed;
 }
 
-.sidebar li {
-  list-style-type: none;
-  margin: 0.8em 0.5em;
-  padding: 0.2em;
-  transition: 250ms box-shadow;
-  &:hover {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  }
+.sidebar-container .sidebaritem {
+    list-style-type: none;
+    margin: 0.8em 0.5em;
+    padding: 0.2em;
+    transition: 250ms box-shadow;
+    margin: 0;
+    padding: 0;
+    &:hover {
+    }
 }
 
-.sidebar a {
-  color: #d96628;
-  text-decoration: none;
+.sidebar-container a {
+    color: #d96628;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: .5em 0 .5em 2em;
+    box-sizing: border-box;
+    
+    &:hover {
+        background-color: #212121;
+        color: #f2874e;
+    }
 }
 
 .sidebar-container .newpage {
     color: #289bd9;
     text-decoration: none;
+    height: 2.6em;
+    
+    &:hover {
+        color: #4eb9f2;
+    }
+}
+
+.sidebar-container h2 {
+    padding-left: 0.8em;
 }
 
 #toggle {
@@ -73,7 +97,7 @@ body {
 }
 
 #toggle:checked + label {
-    margin-left: 19em;
+    margin-left: 13.5em;
 }
 
 .main {
@@ -82,10 +106,45 @@ body {
     min-width: 60%;
     position: absolute;
     left: 24em;
+    
+    a {
+        color: #d96628;
+        text-decoration: none;
+        
+        &:hover {
+            color: #f2874e;
+        }
+    }
 }
 
 h1.title {
   display: inline-block;
+}
+
+.editpage, .editpage small {
+    text-decoration: none;
+    color: #289bd9;
+    font-size: 1em;
+    margin-left: 1em;
+    
+    &:hover {
+        color: #4eb9f2;
+    }
+}
+
+code.highlighter-rouge {
+    background-color: #313131;
+    padding: .2em .4em;
+    border-radius: 3px;
+}
+
+.highlight {
+    display: inline-block;
+    padding: .5em 1em;
+    background-color: #313131;
+    border-radius: 3px;
+    max-width: 80%;
+    overflow: auto;
 }
 
 @media only screen and (max-width: 900px) {
