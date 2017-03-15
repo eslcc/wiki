@@ -35,7 +35,7 @@ title: Free Student Software
 * Office Suite: Text, Spreadsheets, Presentations, Sketches, Databases, Formulas, Charts
 * Microsoft Office, but free - [Link](https://www.libreoffice.org/download/download)
 
-<img src="https://raw.githubusercontent.com/eslcc/wiki/gh-pages/assets/Impress.png" width="250px" align="right">
+<img src="https://raw.githubusercontent.com/eslcc/wiki/gh-pages/assets/InkScape.png" width="250px" align="right">
 #### InkScape 
 * free and open source Vector Graphics Editor
 * Adobe Illustrator, but free - [Link](https://inkscape.org/en/download)
