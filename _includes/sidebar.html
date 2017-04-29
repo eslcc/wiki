@@ -10,24 +10,34 @@
 
 {% assign categories = site.pages | group_by: "category" | sort: "name" %}
 {% for cat in categories %}
-    {% if cat.name == %}
+    {% if forloop.index0 == 0 %}
         {% continue %}
     {% endif %}
     {% if cat.name == page.category %}
         {% assign current = true %}
+    {% else %}
+        {% assign current = false %}
     {% endif %}
-    <div class="sitebar-category {% if current == true %}current{% endif %}">
-        {{ cat.name }}
-        {% if current == true %}
+    <div class="sidebar-category {% if current == true %}current{% endif %}">
+        <span class="category-name">{{ cat.name }}</span>
+        <div class="sidebar-items">
             {% for page in cat.items %}
                 {% if page.title != %}
                     <div class="sidebaritem"><a href="{{ page.url }}">{{page.title}}</a></div>
                 {% endif %}
             {% endfor %}
-        {% endif %}
+        </div>
     </div>
 {% endfor %}
 
 <hr>
 
 <a href="https://github.com/eslcc/wiki/new/gh-pages/pages" class="newpage">Create New Page</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>
+$(function() {
+    $('.sidebar-category').click(function() {
+        $(this).toggleClass('expanded');
+    });
+});
+</script>

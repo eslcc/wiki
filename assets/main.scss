@@ -73,6 +73,27 @@ body {
     }
 }
 
+.sidebar-category {
+    margin: 0.5em 0;
+    cursor: pointer;
+    &:hover {
+        background-color: #212121;
+    }
+    .sidebar-items {
+        display: none;
+    }
+    &.current .sidebar-items, &.expanded .sidebar-items {
+        display: initial;
+    }
+
+    .category-name:after {
+        content: '\25b6';
+    }
+    &.current .category-name:after, &.expanded .category-name:after {
+        content: '\25bc';
+    }
+}
+
 .sidebar-container h2 {
     padding-left: 0.8em;
 }
