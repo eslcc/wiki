@@ -38,6 +38,16 @@ body {
     }
 }
 
+.sidebar-container .sitebar-category {
+    list-style-type: none;
+    margin: 0.8em 0.5em;
+    padding: 0.2em;
+    transition: 250ms box-shadow;
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+}
+
 .sidebar-container a {
     color: #d96628;
     text-decoration: none;
@@ -60,6 +70,27 @@ body {
     
     &:hover {
         color: #4eb9f2;
+    }
+}
+
+.sidebar-category {
+    margin: 0.5em 0;
+    cursor: pointer;
+    &:hover {
+        background-color: #212121;
+    }
+    .sidebar-items {
+        display: none;
+    }
+    &.current .sidebar-items, &.expanded .sidebar-items {
+        display: initial;
+    }
+
+    .category-name:after {
+        content: '\25b6';
+    }
+    &.current .category-name:after, &.expanded .category-name:after {
+        content: '\25bc';
     }
 }
 
