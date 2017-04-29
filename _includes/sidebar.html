@@ -8,11 +8,26 @@
 </ul>
 -->
 
-
-{% for page in site.pages %}
-    {% if page.title != %}
-      <div class="sidebaritem"><a href="{{ page.url }}">{{page.title}}</a></div>
+{% assign categories = site.pages | group_by: "category" | sort: "name" %}
+{% for cat in categories %}
+    {% if cat.name == %}
+        {% continue %}
     {% endif %}
+    {% if cat.name == page.category %}
+        {% assign current = true %}
+    {% endif %}
+    <div class="sitebar-category {% if current == true %}current{% endif %}">
+        {{ cat.name }}
+        {% if current == true %}
+            {% for page in cat.items %}
+                {% if page.title != %}
+                    <div class="sidebaritem"><a href="{{ page.url }}">{{page.title}}</a></div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
 {% endfor %}
+
+<hr>
 
 <a href="https://github.com/eslcc/wiki/new/gh-pages/pages" class="newpage">Create New Page</a>

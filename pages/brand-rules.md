@@ -1,5 +1,6 @@
 ---
 title: Brand Rules
+category: eslcc
 ---
 
 Some basic rules for using the eslcc brand and name.

@@ -38,6 +38,16 @@ body {
     }
 }
 
+.sidebar-container .sitebar-category {
+    list-style-type: none;
+    margin: 0.8em 0.5em;
+    padding: 0.2em;
+    transition: 250ms box-shadow;
+    margin: 0;
+    padding: 0;
+    color: #aaa;
+}
+
 .sidebar-container a {
     color: #d96628;
     text-decoration: none;

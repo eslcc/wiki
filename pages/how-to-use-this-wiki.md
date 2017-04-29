@@ -1,5 +1,6 @@
 ---
 title: How to use this wiki
+category: Meta
 ---
 
 ## Editing

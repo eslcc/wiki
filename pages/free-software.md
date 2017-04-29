@@ -1,5 +1,6 @@
 ---
 title: Free Student Software
+category: Student Resources
 ---
 
 # free software only for students

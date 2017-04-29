@@ -1,5 +1,6 @@
 ---
 title: Wiki To-Do List
+category: Meta
 ---
 
  * Categories
