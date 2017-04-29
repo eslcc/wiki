@@ -87,10 +87,18 @@ body {
     }
 
     .category-name:after {
-        content: '\25b6';
+        content: '+';
+        display:inline-block;
+        padding-left: 2px;
+        transition: transform .2s;
     }
     &.current .category-name:after, &.expanded .category-name:after {
-        content: '\25bc';
+        content: '+';
+        display:inline-block;
+        padding-left: 2px;
+        transition: transform .2s;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
     }
 }
 
