@@ -5,7 +5,7 @@ category: Meta
 
 ## Editing
 
-Under every page's title, you can see a `edit this page` link. Click that, and you'll be taken to the page's source
+Next to every page's title, you can see a `edit this page` link. Click that, and you'll be taken to the page's source
 in GitHub. Pages are written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 If you're a member of the eslcc org, you can edit it directly. If not, submit a pull request.
@@ -23,5 +23,8 @@ A couple of things you need to keep in mind, otherwise the wiki will break:
 ```
 ---
 title: <insert page title here>
+category: <insert category here>
 ---
 ```
+
+Pages with the same category will be grouped together on the sidebar. **Note: the category must be *identical*, down to the capitalisation, or it will not be grouped.**
