@@ -1,5 +1,5 @@
 ---
-title: HOWTO: Add New Members
+title: HOWTO Add New Members
 category: How To Run eslcc
 ---
 
