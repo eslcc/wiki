@@ -15,9 +15,11 @@ When a new person submits the application form, here's the procedure: (ATM Micro
 ```
 Dear **INSERT PERSON NAME HERE**,
 
-Thank you for applying, and welcome to the eslcc!
+Your have been accepted to the eslcc (European School of Luxembourg Computer Club), congratulations!
 
-You should have received two emails before this one, one inviting you to our GitHub organisation, and one to our Slack team. If you haven't got them both, give it a minute, if they're still not there let me know. Also, check your spam folder if you don't see the Slack email, it may have landed there.
+You should have received two emails before this one, one inviting you to our GitHub organisation, and one to our Slack team.
+If you haven't got them both, give it a minute, if they're still not there let me know.
+Also, check your spam folder if you don't see the Slack email, it may have landed there.
 
 **INSERT SOMETHING PERSONAL TO THEIR APPLICATION HERE.**
 
